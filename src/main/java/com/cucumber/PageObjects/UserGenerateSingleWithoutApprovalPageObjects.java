@@ -147,11 +147,11 @@ public class UserGenerateSingleWithoutApprovalPageObjects {
 	public void Enterallinputfields() throws InterruptedException {
 
 		testbase.waitForElement(Constants.driver.findElement(name), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(name).sendKeys("Mamatha");
+		Constants.driver.findElement(name).sendKeys("Manisha");
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(mobile), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(mobile).sendKeys("99121908023");
+		Constants.driver.findElement(mobile).sendKeys("99121908013");
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(IssueMonth), TIMEOUT_WAIT, POOLING_WAIT);
@@ -159,7 +159,7 @@ public class UserGenerateSingleWithoutApprovalPageObjects {
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(email), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(email).sendKeys("anusha.m@sapphirus.in");
+		Constants.driver.findElement(email).sendKeys("kavya.m@sapphirus.in");
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(AcademicRef), TIMEOUT_WAIT, POOLING_WAIT);
@@ -175,7 +175,7 @@ public class UserGenerateSingleWithoutApprovalPageObjects {
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(upload), TIMEOUT_WAIT, POOLING_WAIT);
-		String img= "C:\\Users\\admin\\Desktop\\Bulk data-(26-Mar-24)\\important-linux-commands-you-should-know-obooko-45.pdf";
+		String img= "C:\\Users\\admin\\Desktop\\Bulk data-(26-Mar-24)\\important-linux-commands-you-should-know-obooko-50.pdf";
 
 		Constants.driver.findElement(upload);
 		WebElement Upload= testbase.waitForElement(Constants.driver.findElement(upload), TIMEOUT_WAIT, POOLING_WAIT);

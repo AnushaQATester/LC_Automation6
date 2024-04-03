@@ -104,7 +104,7 @@ public class UserGenSingleByUploadingJPEGfilePageObjects {
 	public void uploadCertificate()
 	
 	{
-		driver.findElement(certficupload).sendKeys("D:\\For Automation Purpose\\Screenshot (3).jpeg");
+		driver.findElement(certficupload).sendKeys("D:\\LC_Automation Practice\\Screenshot (13).jpeg");
 		driver.findElement(chb).click();
 		driver.findElement(sbmt).click();
 		driver.findElement(surebtn).click();

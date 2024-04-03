@@ -19,31 +19,34 @@ public class UserGeneratedCertificatesWithoutSelectingCheckboxesSteps {
 		login = testContext.getPageObjectManager().getlogin();
 		generatedcertificates = testContext.getPageObjectManager().getgeneratedcertificates();
 	}
-	
 
-    @Given("^login with the valid Username and valid password$")
-    public void login_with_the_valid_Username_and_valid_password() throws Throwable {
-    	login.Logintoappln("DemoUser", "Admin@1");
-    }
 
-    @Then("^Click on reports type$")
-    public void click_on_reports_type() throws Throwable {
-    	generatedcertificates.Clickonreportstype();
-    }
+	@Given("^login with the valid Username and valid password$")
+	public void login_with_the_valid_Username_and_valid_password() throws Throwable {
+		login.Logintoappln("SahUser", "User@1");
+	}
 
-    @Then("^Click the Generated Certificates$")
-    public void click_the_Generated_Certificates() throws Throwable {
-    	generatedcertificates.ClicktheGeneratedCertificates();
-    }
+	@Then("^Click on reports type$")
+	public void click_on_reports_type() throws Throwable {
+		generatedcertificates.Clickonreportstype();
+	}
 
-    @Then("^Select the Certificate Type$")
-    public void select_the_Certificate_Type() throws Throwable {
-    	generatedcertificates.SelecttheCertificateType();
-    }
+	@Then("^Click the Generated Certificates$")
+	public void click_the_Generated_Certificates() throws Throwable {
+		generatedcertificates.ClicktheGeneratedCertificates();
+	}
 
-    @Then("^click on the Action dropdown and select the options one by one$")
-    public void click_on_the_Action_dropdown_and_select_the_options_one_by_one() throws Throwable {
-    	generatedcertificates.ClickontheActiondropdownandselecttheoptionsonebyone();
-    }
+	@Then("^Select the Certificate Type$")
+	public void select_the_Certificate_Type() throws Throwable {
+		generatedcertificates.SelecttheCertificateType();
+	}
 
+	//    @Then("^click on the Action dropdown and select the options one by one$")
+	//    public void click_on_the_Action_dropdown_and_select_the_options_one_by_one() throws Throwable {
+	//  	generatedcertificates.ClickontheActiondropdownandselecttheoptionsonebyone();
+
+	@Then("^Click on the Action dropdown and select the options one by one$")
+	public void click_on_the_Action_dropdown_and_select_the_options_one_by_one() throws Throwable {
+		generatedcertificates.ClickontheActiondropdownandselecttheoptionsonebyone();
+	}
 }

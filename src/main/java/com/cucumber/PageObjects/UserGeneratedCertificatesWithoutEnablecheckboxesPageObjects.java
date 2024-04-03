@@ -21,7 +21,7 @@ public class UserGeneratedCertificatesWithoutEnablecheckboxesPageObjects {
 	
 	By	c=By.xpath("//div[@class='card-header']/div[2]/select");
 	
-	By	bc=By.name("bulk_action");
+	By action = By.xpath("//select[@id='bulk_action']");
 	
 	By g=By.xpath("//input[@value='Go']");
 	
@@ -38,29 +38,35 @@ public class UserGeneratedCertificatesWithoutEnablecheckboxesPageObjects {
 		WebElement Certificates=Constants.driver.findElement(reports);
 		Actions act=new Actions(driver);
 		act.moveToElement(Certificates).perform();
-
-		Constants.driver.findElement(genc).click();
+        Constants.driver.findElement(genc).click();
+        
 	}
+	
 	public void selectValueCertificate() throws InterruptedException
+	
 	{
 		//driver.findElement(ok).click();
 		WebElement ele2 = driver.findElement(c);
 		Thread.sleep(2000);
 		Select sc1=new Select(ele2);
-		sc1.selectByValue("Btech");
+		sc1.selectByValue("MBA");
+		Thread.sleep(2000);
 	}
 
 	public void performclickoperation() throws InterruptedException
+	
 	{
-		WebElement ActionDrpdwn = driver.findElement(bc);
+		WebElement ActionDrpdwn = driver.findElement(action);
 		Select s1=new Select(ActionDrpdwn);
 		String[] valueToselect= {"1","2","3","4","5"};
 		for(String value:valueToselect)
+			
 		{
 			s1.selectByValue(value);
 			Thread.sleep(1000);
 			driver.findElement(g).click();
 			driver.findElement(o).click();
+			Thread.sleep(2000);
 		}
 	}
 }

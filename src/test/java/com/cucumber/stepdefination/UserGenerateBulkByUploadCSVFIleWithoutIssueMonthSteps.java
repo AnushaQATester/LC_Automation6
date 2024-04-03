@@ -35,7 +35,7 @@ public class UserGenerateBulkByUploadCSVFIleWithoutIssueMonthSteps {
 
 	@When("^the User logs in successfully using un & pwd$")
 	public void the_User_logs_in_successfully_using_un_pwd() throws Throwable {
-		login.Logintoappln("DemoUser", "Admin@123");
+		login.Logintoappln("SahUser", "User@1");
 	}
 
 	@Then("^confirm the appearance of a popup message$")

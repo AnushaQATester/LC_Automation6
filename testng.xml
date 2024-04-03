@@ -9,7 +9,8 @@
 	
        
        
-        <test name="ChromeBrowser">
+     
+   <test name="ChromeBrowser">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			
@@ -40,28 +41,31 @@
 	        <class name="com.cucumber.TestRunner.AdminApprovalSettingsRunner" /> 
 	        <class name="com.cucumber.TestRunner.AdminUpdateInstitutionRunner" /> 
 	        <class name="com.cucumber.TestRunner.AdminRegistrationRunner" />  
+
 	        
-	          
-	            
+	        
+	         
 			
-			
-		 	 <class name="com.cucumber.TestRunner.UserWelcomeTextRunner" />
-			 <class name="com.cucumber.TestRunner.UserVerifyCertificatesWithEmptyAcademicRefNumfieldRunner" />
+		     <class name="com.cucumber.TestRunner.UserWelcomeTextRunner" />
              <class name="com.cucumber.TestRunner.UserVerifiedCertificatesWithoutEnablecheckboxesRunner" />
 			 <class name="com.cucumber.TestRunner.UserVerificationURLRunner" />
-			 <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRevokeRunner" />
+			 <class name="com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner" />
+			 <class name="com.cucumber.TestRunner.UserInternalPrintingwithoutuploadingCSVfileRunner" />
 			 
-			 <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsQRCodeRunner" />
+			 
 			 <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner" />
 			 <class name="com.cucumber.TestRunner.UserNewMailEditRunner" />
 			 <class name="com.cucumber.TestRunner.UserLaunchTheApplicationRunner" />
-			 <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRecallRunner" />
+			 <class name="com.cucumber.TestRunner.UserGeenrateBulkByUploadCSVFIleWithoutIssueMonthRunner" />
+			 <class name="com.cucumber.TestRunner.UserVerifyCertificatesWithEmptyAcademicRefNumfieldRunner" />
 
-			<class name="com.cucumber.TestRunner.UserInternalPrintingwithoutuploadingCSVfileRunner" />
+
 			<class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileWithSpacesandDotsRunner" />
 			<class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileWithSpacesandDotsinAcademicReferenceNumberRunner" />
 			<class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileWithoutAcademicReferenceNumberRunner" />
 			<class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithSpacesandDotsRunner" />
+			<class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsQRCodeRunner" />
+
 
 			<class name="com.cucumber.TestRunner.UserGenSingleMobileWithless10digitsRunner" />
 			<class name="com.cucumber.TestRunner.UserGenSingleMobileWithAbove10digitsRunner" />
@@ -102,16 +106,18 @@
    	        <class name="com.cucumber.TestRunner.UserGenerateBulkByUploadingWithEmptyAcademicRefNumColumnRunner" />
    	        
    	        <class name="com.cucumber.TestRunner.UserGenerateBulkByUploadCSVFIleWithInvalidCertificateNameRunner" />
-            <class name="com.cucumber.TestRunner.UserGeenrateBulkByUploadCSVFIleWithoutIssueMonthRunner" />
 	        <class name="com.cucumber.TestRunner.UserInternalPrintingByUploadInvalidCSVFileRunner" />
-	        <class name="com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner" />
 	        <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsRunner" />
-		    
-     
- 
+		    <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRevokeRunner" />
+		    <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRecallRunner" />
+		    <class name="com.cucumber.TestRunner.UserGeneratedCertificatesWithoutEnablecheckboxesRunner" />
+
 			
+
+
+	       
 			
-	        <class name="com.cucumber.TestRunner.UserGenerateSingleWithoutApprovalRunner" />
+			<class name="com.cucumber.TestRunner.UserGenerateSingleWithoutApprovalRunner" />
 	        <class name="com.cucumber.TestRunner.UserGenerateBulkWithoutApprovalRunner" />
 	        <class name="com.cucumber.TestRunner.UserVerifyCertificatesRunner" />
 	        <class name="com.cucumber.TestRunner.UserGeneratedCertificatesRunner" />
