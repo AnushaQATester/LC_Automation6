@@ -175,7 +175,7 @@ public class UserGenerateSingleWithoutApprovalPageObjects {
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(upload), TIMEOUT_WAIT, POOLING_WAIT);
-		String img= "C:\\Users\\admin\\Desktop\\Bulk data-(26-Mar-24)\\important-linux-commands-you-should-know-obooko-22.pdf";
+		String img= "C:\\Users\\admin\\Desktop\\Bulk data-(26-Mar-24)\\important-linux-commands-you-should-know-obooko-45.pdf";
 
 		Constants.driver.findElement(upload);
 		WebElement Upload= testbase.waitForElement(Constants.driver.findElement(upload), TIMEOUT_WAIT, POOLING_WAIT);

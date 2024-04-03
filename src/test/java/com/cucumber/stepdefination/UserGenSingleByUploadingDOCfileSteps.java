@@ -30,33 +30,33 @@ public class UserGenSingleByUploadingDOCfileSteps {
 
 	@Given("^login institution user by valid username and password$")
 	public void login_institution_user_by_valid_username_and_password() throws Throwable {
-//		login.Logintoappln("SahUser", "User@1");
+		login.Logintoappln("SahUser", "User@1");
 		Thread.sleep(5000);
 	}
 
 	@Then("^click on certificate click Generate single$")
 	public void click_on_certificate_click_Generate_single() throws Throwable {
-//		gensinglewithdoc.clickoncertificateclickGeneratesingle();
+		gensinglewithdoc.clickoncertificateclickGeneratesingle();
 	}
 
 	@Then("^click on Certificate type dropdown and select certificate type$")
 	public void click_on_Certificate_type_dropdown_and_select_certificate_type() throws Throwable {
-//		gensinglewithdoc.clickonCertificatetypedropdownandselectcertificatetype();
+		gensinglewithdoc.clickonCertificatetypedropdownandselectcertificatetype();
 	}
 
 	@Then("^Fill by the required fields$")
 	public void fill_by_the_required_fields() throws Throwable {
-//		gensinglewithdoc.Fillbytherequiredfields();
+		gensinglewithdoc.Fillbytherequiredfields();
 	}
 
 	@Then("^Upload DOC file into Upload the document field$")
 	public void upload_DOC_file_into_Upload_the_document_field() throws Throwable {
-//		gensinglewithdoc.UploadDOCfileintoUploadthedocumentfield();
+		gensinglewithdoc.UploadDOCfileintoUploadthedocumentfield();
 	}
 
 	@Then("^click by next button$")
 	public void click_by_next_button() throws Throwable {
-//		gensinglewithdoc.clickbynextbutton();
+		gensinglewithdoc.clickbynextbutton();
 	}
 }
 

@@ -20,23 +20,23 @@ public class UserDashboardViewAllGenerationsSteps {
 	}
 	@Given("^login by the user valid Username and Password$")
 	public void login_by_the_user_valid_Username_and_Password() throws Throwable {
-		//login.Logintoappln("DemoUser", "Admin@123");
+		login.Logintoappln("DemoUser", "Admin@123");
 		Thread.sleep(10000);
 	}
 
 	@Then("^Scroll down the vertical bar$")
 	public void Scroll_down_the_vertical_bar() throws Throwable {
-		//viewallgenerations.Scrolldowntheverticalbar();
+		viewallgenerations.Scrolldowntheverticalbar();
 	}
 
 	@Then("^click on the Certificate type dropdown and select the type$")
 	public void click_on_the_Certificate_type_dropdown_and_select_the_type() throws Throwable {
-		//viewallgenerations.clickontheCertificatetypedropdownandselectthetype();
+		viewallgenerations.clickontheCertificatetypedropdownandselectthetype();
 	}
 
 	@Then("^click on the View All Generations button$")
 	public void click_on_the_View_All_Generations_button() throws Throwable {
-		//viewallgenerations.clickontheViewAllGenerationsbutton();
+		viewallgenerations.clickontheViewAllGenerationsbutton();
 	}
 
 

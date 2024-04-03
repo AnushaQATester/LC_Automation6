@@ -37,8 +37,9 @@ public class UserGenerateBulkByUploadCSVFileWithEmptyMobileNumberSteps {
 
 	@When("^The user logs in with valid credentials$")
 	public void the_user_logs_in_with_valid_credentials() throws Throwable {
-		login.Logintoappln("SahUser", "User@1");  
-	}
+		login.Logintoappln("SahUser", "User@1");
+		Thread.sleep(3000);
+		}
 
 	@Then("^A Popup should appear$")
 	public void a_Popup_should_appear() throws Throwable {

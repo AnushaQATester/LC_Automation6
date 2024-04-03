@@ -35,7 +35,8 @@ public class UserGenerateBulkByUploadCSVFileWithEmptyStudentNameSteps {
 
 	@When("^User login successfully using un & pwd$")
 	public void user_login_successfully_using_un_pwd() throws Throwable {
-		login.Logintoappln("SahUser", "User@1");  
+		login.Logintoappln("SahUser", "User@1");
+		Thread.sleep(3000);
 	}
 
 	@Then("^confirm the appearance of a popup$")
@@ -68,7 +69,7 @@ public class UserGenerateBulkByUploadCSVFileWithEmptyStudentNameSteps {
 
 	@Then("^ensure  the checkbox selected before saving it$")
 	public void ensure_the_checkbox_selected_before_saving_it() throws Throwable {
-	    //emptystuname1.next_button();
+	    emptystuname1.next_button();
 	}
 
 

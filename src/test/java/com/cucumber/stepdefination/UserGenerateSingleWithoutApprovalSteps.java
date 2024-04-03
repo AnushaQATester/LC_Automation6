@@ -23,61 +23,61 @@ public class UserGenerateSingleWithoutApprovalSteps {
 
 	@Given("^Login valid Username and Password$")
 	public void Login_valid_Username_and_Password() throws Throwable {
-		//login.Logintoappln("SahaAdmin", "Admin@123");
+		login.Logintoappln("SahaAdmin", "Admin@123");
 	}
 
 	@When("^click the settings type in the admin$")
 	public void click_the_settings_type_in_the_admin() throws Throwable {
-		//usergeneratesinglewithoutapproval.clickthesettingstypeintheadmin();
+		usergeneratesinglewithoutapproval.clickthesettingstypeintheadmin();
 	}
 
 	@Then("^select the settings option$")
 	public void select_the_settings_option() throws Throwable {
-		//usergeneratesinglewithoutapproval.selectthesettingsoption();
+		usergeneratesinglewithoutapproval.selectthesettingsoption();
 	}
 
 	@Then("^click on the approval checkbox$")
 	public void click_on_the_approval_checkbox() throws Throwable {
-		//usergeneratesinglewithoutapproval.clickontheapprovalcheckbox();
+		usergeneratesinglewithoutapproval.clickontheapprovalcheckbox();
 	}
 
 	@Then("^click on the button$")
 	public void click_on_the_button() throws Throwable {
-		//usergeneratesinglewithoutapproval.clickonthebutton();
+		usergeneratesinglewithoutapproval.clickonthebutton();
 	}
 	@Then("^click on the signout option$")
 	public void click_on_the_signout_option() throws Throwable {
-		//usergeneratesinglewithoutapproval.clickonthesignoutoption();
+		usergeneratesinglewithoutapproval.clickonthesignoutoption();
 	}
 
 	@Then("^login with the user details$")
 	public void login_with_the_user_details() throws Throwable {
-		//login.Logintoappln("SahUser", "User@1");
+		login.Logintoappln("SahUser", "User@1");
 	}
 
 	@Then("^click the Certificate Dropdown$")
 	public void click_the_Certificate_Dropdown() throws Throwable {
-		//usergeneratesinglewithoutapproval.clicktheCertificateDropdown();
+		usergeneratesinglewithoutapproval.clicktheCertificateDropdown();
 	}
 
 	@Then("^Select the single generation$")
 	public void Select_the_single_generation() throws Throwable {
-		//usergeneratesinglewithoutapproval.Selectthesinglegeneration();
+		usergeneratesinglewithoutapproval.Selectthesinglegeneration();
 	}
 
 	@Then("^click on the certificate type$")
 	public void click_on_the_certificate_type() throws Throwable {
-		//usergeneratesinglewithoutapproval.clickonthecertificatetype();
+		usergeneratesinglewithoutapproval.clickonthecertificatetype();
 	}
 
 	@Then("^Enter all input fields$")
 	public void Enter_all_input_fields() throws Throwable {
-		//usergeneratesinglewithoutapproval.Enterallinputfields();
+		usergeneratesinglewithoutapproval.Enterallinputfields();
 	}
 
 	@Then("^click the Generate Certificate button$")
 	public void click_the_Generate_Certificate_button() throws Throwable {
-		//usergeneratesinglewithoutapproval.clicktheGenerateCertificatebutton();
+		usergeneratesinglewithoutapproval.clicktheGenerateCertificatebutton();
 	}
 
 	

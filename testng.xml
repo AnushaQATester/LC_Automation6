@@ -9,7 +9,7 @@
 	
        
        
-      <!--   <test name="ChromeBrowser">
+        <test name="ChromeBrowser">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			
@@ -43,16 +43,7 @@
 	        
 	          
 	            
-	          </classes>
-	    </test> -->
-	    
-	  
-	    
-	    
-	  
-      <!--     <test name="ChromeBrowser">
-		<parameter name="browser" value="chrome" />
-		<classes>
+			
 			
 		 	 <class name="com.cucumber.TestRunner.UserWelcomeTextRunner" />
 			 <class name="com.cucumber.TestRunner.UserVerifyCertificatesWithEmptyAcademicRefNumfieldRunner" />
@@ -82,20 +73,9 @@
             <class name="com.cucumber.TestRunner.UserGenSingleByUploadingDOCfileRunner" />
             <class name="com.cucumber.TestRunner.UserGenSingleByUploadingDOCXfileRunner" />
             <class name="com.cucumber.TestRunner.UserGuidelinesRunner" />
-            <class name="com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner" />
+            <class name="com.cucumber.TestRunner.UserInternalPrintingByUploadingCSVWithInvalidIssueYearandMonthRunner" />
 
-
-
-
-            </classes>
-	    </test> 
-	    
-	    
-	    
-	    
-	        <test name="ChromeBrowser">
-		<parameter name="browser" value="chrome" />
-		<classes>
+       
 		    
 		    <class name="com.cucumber.TestRunner.UserGenerateBulkByUploadingCombinationOffilesRunner" />
             <class name="com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCfileRunner" />
@@ -128,15 +108,7 @@
 	        <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsRunner" />
 		    
      
-
-		    </classes>
-	    </test> -->
-	    
-	    
-		  
-	       <test name="ChromeBrowser">
-		<parameter name="browser" value="chrome" />
-		<classes>
+ 
 			
 			
 	        <class name="com.cucumber.TestRunner.UserGenerateSingleWithoutApprovalRunner" />
@@ -167,14 +139,15 @@
             <class name="com.cucumber.TestRunner.UserGenerateBulkByUploadCSVFIleWithEmptyCertificateNameRunner" />
             <class name="com.cucumber.TestRunner.UserGeneratedCertificatesWithoutEnablecheckboxesRunner" />
             <class name="com.cucumber.TestRunner.UserInternalPrintingUploadCSVFileWithoutStudentNameRunner" />
-            <class name="com.cucumber.TestRunner.UserInternalPrintingByUploadingCSVWithInvalidCertificateTypeRunner" />
+			<class name="com.cucumber.TestRunner.UserInternalPrintingByUploadingCSVWithInvalidCertificateTypeRunner" />
 
 	        
 	         </classes>
-	    </test> 
+	    </test>
+	     
 	    
-	    
-	       
+	      
+	     
 		    
 </suite>
 

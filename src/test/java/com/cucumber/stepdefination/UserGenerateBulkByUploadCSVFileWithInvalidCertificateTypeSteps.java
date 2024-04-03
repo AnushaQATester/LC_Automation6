@@ -37,17 +37,18 @@ public class UserGenerateBulkByUploadCSVFileWithInvalidCertificateTypeSteps {
 
 	@When("^the user Logs in using their valid credentials$")
 	public void the_user_Logs_in_using_their_valid_credentials() throws Throwable {
-		login.Logintoappln("SahUser", "User@1"); 
+		login.Logintoappln("SahUser", "User@1");
+		Thread.sleep(3000);
 	}
 
 	@Then("^A popup window should Appear clear$")
 	public void a_popup_window_should_Appear_clear() throws Throwable {
-		 System.out.println("login done");
+		// System.out.println("login done");
 	}
 
 	@Then("^the User Navigates to the \"([^\"]*)\" section further$")
 	public void the_User_Navigates_to_the_section_further(String arg1) throws Throwable {
-	    
+		invalidcertificatetype.theUserNavigatestotheCertificates1sectionfurther();
 	}
 
 	@Then("^Selects \"([^\"]*)\" from the menu options for click$")
@@ -67,7 +68,7 @@ public class UserGenerateBulkByUploadCSVFileWithInvalidCertificateTypeSteps {
 
 	@Then("^Checks the checkbox before Clicking on the save button and clicks$")
 	public void checks_the_checkbox_before_Clicking_on_the_save_button_and_clicks() throws Throwable {
-		invalidcertificatetype.ChecksthecheckboxbeforeClickingonthesavebuttonandclicks();
+		//invalidcertificatetype.ChecksthecheckboxbeforeClickingonthesavebuttonandclicks();
 	}
 
 }

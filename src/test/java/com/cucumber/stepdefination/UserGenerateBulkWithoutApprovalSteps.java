@@ -72,6 +72,7 @@ public class UserGenerateBulkWithoutApprovalSteps {
 	public void upload_the_PDF_files() throws Throwable {
 		userbulkwithoutapproval.uploadthePDFfiles();
 	}
+	
 	@Then("^upload the data files$")
 	public void upload_the_data_files() throws Throwable {
 		userbulkwithoutapproval.uploadthedatafiles();

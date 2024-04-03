@@ -26,22 +26,22 @@ public class UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsStep
 
 	@Given("^login by the valid username and password$")
 	public void login_by_the_valid_username_and_password() throws Throwable {
-		//login.Logintoappln("SahUser", "User@1");
+		login.Logintoappln("SahUser", "User@1");
 	}
 
 	@Then("^Click Internal Printing option$")
 	public void click_Internal_Printing_option() throws Throwable {
-		//invalidemailid.ClickInternalPrintingoption();
+		invalidemailid.ClickInternalPrintingoption();
 	}
 
 	@Then("^Click certificate type dropdown$")
 	public void click_certificate_type_dropdown() throws Throwable {
-		//invalidemailid.Clickcertificatetypedropdown();
+		invalidemailid.Clickcertificatetypedropdown();
 	}
 
 	@Then("^Click as upload invalid CSV file$")
 	public void click_as_upload_invalid_CSV_file() throws Throwable {
-		//invalidemailid.ClickasuploadinvalidCSVfile();
+		invalidemailid.ClickasuploadinvalidCSVfile();
 	}
 
 }

@@ -25,28 +25,28 @@ public class UserBulkUploadingandRemovingthefileSteps
 	}
 	  @Given("^login with valid credentails$")
 	  public void login_with_valid_credentails() throws Throwable {
-	    //login.Logintoappln("SahUser", "User@1");
+	    login.Logintoappln("SahUser", "User@1");
 	  }
 
 	  @Given("^clickon certificates$")
 	  public void clickon_certificates() throws Throwable {
-		 // emptystuname.clickonCertificate();
+		  emptystuname.clickonCertificate();
 	     
 	  }
 
 	  @When("^select certificateType$")
 	  public void select_certificateType() throws Throwable {
-		  //emptystuname.selectCertficate();
+		  emptystuname.selectCertficate();
 	  }
 
 	  @When("^click on checkbox$")
 	  public void click_on_checkbox() throws Throwable {
-		  //emptystuname.checkCheckBox();
+		  emptystuname.checkCheckBox();
 	  }
 
 	  @Then("^Verify the Error msg displayed without uploading csv file$")
 	  public void verify_the_Error_msg_displayed_without_uploading_csv_file() throws Throwable {
-		  //emptystuname.verifytheErrormsg(); 
+		  emptystuname.verifytheErrormsg(); 
 	  }
 
 
