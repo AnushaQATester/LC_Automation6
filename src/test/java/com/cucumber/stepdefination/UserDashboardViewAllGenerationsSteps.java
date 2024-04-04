@@ -20,7 +20,7 @@ public class UserDashboardViewAllGenerationsSteps {
 	}
 	@Given("^login by the user valid Username and Password$")
 	public void login_by_the_user_valid_Username_and_Password() throws Throwable {
-		login.Logintoappln("DemoUser", "Admin@123");
+		login.Logintoappln("SahUser", "User@1");
 		Thread.sleep(10000);
 	}
 

@@ -21,7 +21,7 @@ public class UserChangePasswordSteps {
 	}
 	@Given("^Login with valid Username and valid Password$")
 	public void login_with_valid_Username_and_valid_Password() throws Throwable {
-		login.Logintoappln("SichuUser", "Admin@1");
+		login.Logintoappln("SahUser", "User@1");
 		Thread.sleep(10000);
 	}
 

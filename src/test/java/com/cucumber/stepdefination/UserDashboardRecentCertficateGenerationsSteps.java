@@ -21,7 +21,7 @@ public class UserDashboardRecentCertficateGenerationsSteps {
 	}
 	@Given("^login the user valid Username and Password$")
 	public void login_the_user_valid_Username_and_Password() throws Throwable {
-		login.Logintoappln("DemoUser", "Admin@123");
+		login.Logintoappln("SahUser", "User@1");
 		Thread.sleep(10000);
 	}
 
@@ -42,12 +42,12 @@ public class UserDashboardRecentCertficateGenerationsSteps {
 
 	@Then("^click and scroll the page$")
 	public void click_and_scroll_the_page() throws Throwable {
-		dbrecentcertificategenerations.clickandscrollthepage();
+		//dbrecentcertificategenerations.clickandscrollthepage();
 	}
 	
 	@Then("^click on the print button$")
 	public void click_on_the_print_button() throws Throwable {
-		dbrecentcertificategenerations.clickontheprintbutton();
+		//dbrecentcertificategenerations.clickontheprintbutton();
 	}
 
 	

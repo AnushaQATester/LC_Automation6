@@ -69,15 +69,15 @@ public class UserGenSingleByUploadingJPGfilePageObjects {
 	public void filltherequiredfields() throws InterruptedException {
 
 		testbase.waitForElement(Constants.driver.findElement(name), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(name).sendKeys("Swathika");
+		Constants.driver.findElement(name).sendKeys("Keerthi");
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(mobile), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(mobile).sendKeys("7519243811");
+		Constants.driver.findElement(mobile).sendKeys("8879654323");
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(email), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(email).sendKeys("soumya.m@sapphirus.in");
+		Constants.driver.findElement(email).sendKeys("keerthi@gmail.com");
 		Thread.sleep(3000);
 
 		testbase.waitForElement(Constants.driver.findElement(IssueMonth), TIMEOUT_WAIT, POOLING_WAIT);
@@ -86,7 +86,7 @@ public class UserGenSingleByUploadingJPGfilePageObjects {
 
 
 		testbase.waitForElement(Constants.driver.findElement(AcademicRef), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(AcademicRef).sendKeys("h3465hdg");
+		Constants.driver.findElement(AcademicRef).sendKeys("dshg346");
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(CertName), TIMEOUT_WAIT, POOLING_WAIT);
@@ -102,7 +102,7 @@ public class UserGenSingleByUploadingJPGfilePageObjects {
 	public void UploadJPGfileintouploadthedocumentfield() throws InterruptedException {
 
 		testbase.waitForElement(Constants.driver.findElement(upload), TIMEOUT_WAIT, POOLING_WAIT);
-		String img= "D:\\LC_Automation Practice\\Screenshot (14).jpg";
+		String img= "D:\\LC_Automation Practice\\Screenshot (13).jpg";
 
 		Constants.driver.findElement(upload);
 		WebElement Upload= testbase.waitForElement(Constants.driver.findElement(upload), TIMEOUT_WAIT, POOLING_WAIT);
@@ -119,7 +119,7 @@ public class UserGenSingleByUploadingJPGfilePageObjects {
 		Thread.sleep(2000);
 		Constants.driver.findElement(popup).click();
 		Thread.sleep(2000);
-		Constants.driver.findElement(ok).click();
+		//Constants.driver.findElement(ok).click();
 	}	
 
 

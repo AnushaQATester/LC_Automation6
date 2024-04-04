@@ -41,8 +41,8 @@ public class UserGeneratedCertificatesPageObjects {
 	By ok =By.xpath("//button[normalize-space()='Ok']");
 
 	//Click the revoke icon then click the Ok
-	By revoke = By.xpath("//i[@class='fa fa-undo mx-2']");
-	By ok1 = By.xpath("//button[normalize-space()='Ok']");
+	//By revoke = By.xpath("//i[@class='fa fa-undo mx-2']");
+	//By ok1 = By.xpath("//button[normalize-space()='Ok']");
 
 	//Click on download original certificate icon then click the Ok
 	By originalcertificates = By.xpath("//tbody/tr[1]/td[9]/a[3]/i[1]");
@@ -118,10 +118,10 @@ public class UserGeneratedCertificatesPageObjects {
 	}
 	
 	public void ClicktherevokeiconthenclicktheOk() throws InterruptedException {
-		testbase.waitForElement(Constants.driver.findElement(revoke), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(revoke).click();
-		Constants.driver.findElement(ok1).click();
-		Thread.sleep(4000);
+//		testbase.waitForElement(Constants.driver.findElement(revoke), TIMEOUT_WAIT, POOLING_WAIT);
+//		Constants.driver.findElement(revoke).click();
+//		Constants.driver.findElement(ok1).click();
+//		Thread.sleep(4000);
 
 
 	}

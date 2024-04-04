@@ -41,7 +41,7 @@ public class UserGenSingleByUploadingDOCXfilePageObjects {
 	By checkbox = By.name("gen_mail_institution");
 	By next = By.xpath("//input[@class='btn btn-primary sw-btn-next']");
 	By popup = By.xpath("//button[text()='Yes, Submit']");
-	By ok = By.xpath("(//button[text()='No'])[2]");
+	//By ok = By.xpath("(//button[text()='No'])[2]");
 
 
 
@@ -69,15 +69,15 @@ public class UserGenSingleByUploadingDOCXfilePageObjects {
 	public void FillbytheRequiredFields() throws InterruptedException {
 
 		testbase.waitForElement(Constants.driver.findElement(name), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(name).sendKeys("Manisha");
+		Constants.driver.findElement(name).sendKeys("Sanjay");
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(mobile), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(mobile).sendKeys("7519243890");
+		Constants.driver.findElement(mobile).sendKeys("7786342501");
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(email), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(email).sendKeys("amulya@gmail.com");
+		Constants.driver.findElement(email).sendKeys("sanjay@gmail.com");
 		Thread.sleep(3000);
 
 		testbase.waitForElement(Constants.driver.findElement(IssueMonth), TIMEOUT_WAIT, POOLING_WAIT);
@@ -86,7 +86,7 @@ public class UserGenSingleByUploadingDOCXfilePageObjects {
 
 
 		testbase.waitForElement(Constants.driver.findElement(AcademicRef), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(AcademicRef).sendKeys("Mdshfg");
+		Constants.driver.findElement(AcademicRef).sendKeys("d327467");
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(CertName), TIMEOUT_WAIT, POOLING_WAIT);
@@ -102,7 +102,7 @@ public class UserGenSingleByUploadingDOCXfilePageObjects {
 	public void UploadDOCXfileintoUploadtheDocumentfield() throws InterruptedException {
 
 		testbase.waitForElement(Constants.driver.findElement(upload), TIMEOUT_WAIT, POOLING_WAIT);
-		String img= "D:\\LC_Automation Practice\\public-demo.docx";
+		String img= "D:\\For Automation Purpose\\SAMPLE1.docx";
 
 		Constants.driver.findElement(upload);
 		WebElement Upload= testbase.waitForElement(Constants.driver.findElement(upload), TIMEOUT_WAIT, POOLING_WAIT);
@@ -119,7 +119,7 @@ public class UserGenSingleByUploadingDOCXfilePageObjects {
 		Thread.sleep(2000);
 		Constants.driver.findElement(popup).click();
 		Thread.sleep(2000);
-		Constants.driver.findElement(ok).click();
+		//Constants.driver.findElement(ok).click();
 	}	
 
 

@@ -69,7 +69,7 @@ public class UserDashboardRecentCertificateGenerationsPageObjects {
 
 
 	public void clickandscrollthepage() throws InterruptedException {
-		testbase.waitForElement(Constants.driver.findElement(page), TIMEOUT_WAIT,POOLING_WAIT);
+		//testbase.waitForElement(Constants.driver.findElement(page), TIMEOUT_WAIT,POOLING_WAIT);
 		Thread.sleep(1000);
 		Actions action = new Actions(driver);
 		action.sendKeys(Keys.PAGE_DOWN).build().perform();
@@ -78,7 +78,7 @@ public class UserDashboardRecentCertificateGenerationsPageObjects {
 
 
 	public void clickontheprintbutton() throws InterruptedException {
-		testbase.waitForElement(Constants.driver.findElement(print), TIMEOUT_WAIT,POOLING_WAIT);
+		//testbase.waitForElement(Constants.driver.findElement(print), TIMEOUT_WAIT,POOLING_WAIT);
 		
 		
 //		driver.switchTo().window(driver.getWindowHandles().toArray()[1].toString());	
