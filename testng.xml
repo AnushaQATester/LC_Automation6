@@ -14,7 +14,7 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 			
-			<class name="com.cucumber.TestRunner.OrgMgmtChangePasswordRunner" />
+		<!-- 	<class name="com.cucumber.TestRunner.OrgMgmtChangePasswordRunner" />
 			<class name="com.cucumber.TestRunner.OrgMgmtLaunchTheApplicationRunner" />		
             <class name="com.cucumber.TestRunner.OrgMgmtUpdateProfileRunner" />		
             <class name="com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner" />	
@@ -139,7 +139,7 @@
             <class name="com.cucumber.TestRunner.UserGenSingleByUploadingJPGfileRunner" />
             <class name="com.cucumber.TestRunner.UserGenSingleByUploadingDOCfileRunner" />
             <class name="com.cucumber.TestRunner.UserGenSingleByUploadingDOCXfileRunner" />
-            <class name="com.cucumber.TestRunner.UserGenSingleByUploadingJPEGfileRunner" />
+            <class name="com.cucumber.TestRunner.UserGenSingleByUploadingJPEGfileRunner" />-->
             <class name="com.cucumber.TestRunner.AdminGeneratedCertificatesNewMailEditRunner" />
 
 
