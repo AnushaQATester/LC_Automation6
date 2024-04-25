@@ -14,7 +14,7 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 			
-		<!-- 	<class name="com.cucumber.TestRunner.OrgMgmtChangePasswordRunner" />
+	    	<class name="com.cucumber.TestRunner.OrgMgmtChangePasswordRunner" />
 			<class name="com.cucumber.TestRunner.OrgMgmtLaunchTheApplicationRunner" />		
             <class name="com.cucumber.TestRunner.OrgMgmtUpdateProfileRunner" />		
             <class name="com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner" />	
@@ -51,7 +51,6 @@
 			 
 			 
 			 <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner" />
-			 <class name="com.cucumber.TestRunner.UserNewMailEditRunner" />
 			 <class name="com.cucumber.TestRunner.UserLaunchTheApplicationRunner" />
 			 <class name="com.cucumber.TestRunner.UserGeenrateBulkByUploadCSVFIleWithoutIssueMonthRunner" />
 			 <class name="com.cucumber.TestRunner.UserVerifyCertificatesWithEmptyAcademicRefNumfieldRunner" />
@@ -107,7 +106,7 @@
             <class name="com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCXfileRunner" />
             <class name="com.cucumber.TestRunner.UserGenerateBulkByUploadingJPGfileRunner" />
 
-	       <class name="com.cucumber.TestRunner.UserRecentCertificateVerificationsRunner" />
+	        <class name="com.cucumber.TestRunner.UserRecentCertificateVerificationsRunner" />
 	        <class name="com.cucumber.TestRunner.AdminApplicationTitleRunner" />
 	        <class name="com.cucumber.TestRunner.AdminBacktotopbuttonRunner" />
 	        <class name="com.cucumber.TestRunner.AdminLaunchTheApplicationRunner" />
@@ -124,29 +123,36 @@
             <class name="com.cucumber.TestRunner.UserInternalPrintingUploadCSVFileWithoutStudentNameRunner" />
 			<class name="com.cucumber.TestRunner.UserInternalPrintingByUploadingCSVWithInvalidCertificateTypeRunner" />
 
-	        
-			
-			
-			<class name="com.cucumber.TestRunner.UserGenerateSingleWithoutApprovalRunner" />
-            <class name="com.cucumber.TestRunner.UserGenerateBulkWithoutApprovalRunner" />
-            <class name="com.cucumber.TestRunner.UserGenerateBulkWithApprovalRunner" />
-            <class name="com.cucumber.TestRunner.UserVerifyCertificatesRunner" />
-            <class name="com.cucumber.TestRunner.UserGeneratedCertificatesRunner" />
-            <class name="com.cucumber.TestRunner.UserChangePasswordRunner" />
-            
-            <class name="com.cucumber.TestRunner.UserDashboardRecentCertificateGenerationsRunner" />
+             <class name="com.cucumber.TestRunner.UserDashboardRecentCertificateGenerationsRunner" />
             <class name="com.cucumber.TestRunner.UserDashboardViewAllGenerationsRunner" />
-            <class name="com.cucumber.TestRunner.UserGenSingleByUploadingJPGfileRunner" />
-            <class name="com.cucumber.TestRunner.UserGenSingleByUploadingDOCfileRunner" />
-            <class name="com.cucumber.TestRunner.UserGenSingleByUploadingDOCXfileRunner" />
-            <class name="com.cucumber.TestRunner.UserGenSingleByUploadingJPEGfileRunner" />-->
-            <class name="com.cucumber.TestRunner.AdminGeneratedCertificatesNewMailEditRunner" />
-
-
-     </classes>
+            
+	        
+    </classes>
 	    </test>
 	     
-	    
+	     
+	     
+	
+     <test name="ChromeBrowser">
+		<parameter name="browser" value="chrome" />
+		<classes>     
+
+	          <class name="com.cucumber.TestRunner.UserGenerateSingleWithoutApprovalRunner" />
+	          <class name="com.cucumber.TestRunner.UserGenerateBulkWithoutApprovalRunner" />
+              <class name="com.cucumber.TestRunner.UserGenerateBulkWithApprovalRunner" />
+              <class name="com.cucumber.TestRunner.UserVerifyCertificatesRunner" />
+              <class name="com.cucumber.TestRunner.UserGeneratedCertificatesRunner" />
+              <class name="com.cucumber.TestRunner.UserChangePasswordRunner" />
+              <class name="com.cucumber.TestRunner.UserGenSingleByUploadingJPGfileRunner" />
+              <class name="com.cucumber.TestRunner.UserGenSingleByUploadingDOCfileRunner" />
+              <class name="com.cucumber.TestRunner.UserGenSingleByUploadingDOCXfileRunner" />
+              <class name="com.cucumber.TestRunner.UserGenSingleByUploadingJPEGfileRunner" />
+              <class name="com.cucumber.TestRunner.UserNewMailEditRunner" />
+              <class name="com.cucumber.TestRunner.AdminGeneratedCertificatesNewMailEditRunner" />
+
+ </classes>
+	    </test>
+	     
 		    
 </suite>
 
