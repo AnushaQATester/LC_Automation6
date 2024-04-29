@@ -50,9 +50,9 @@ public class WebDriverManager {
 						+ FileReaderManager.getInstance().getConfigReader().getChromePath());
 				ChromeOptions options = new ChromeOptions();
 				
-			 // options.addArguments("--headless");
+			  options.addArguments("--headless");
 			  
-              //options.addArguments("--window-size=1920,1080");
+              options.addArguments("--window-size=1920,1080");
 				
 				
 				options.setBinary("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
