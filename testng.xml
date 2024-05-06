@@ -44,6 +44,7 @@
 
 	        
 	         <class name="com.cucumber.TestRunner.UserWelcomeTextRunner" />
+	         
              <class name="com.cucumber.TestRunner.UserVerifiedCertificatesWithoutEnablecheckboxesRunner" />
 			 <class name="com.cucumber.TestRunner.UserVerificationURLRunner" />
 			 <class name="com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner" />

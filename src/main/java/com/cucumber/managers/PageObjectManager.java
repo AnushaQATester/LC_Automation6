@@ -73,6 +73,7 @@ public class PageObjectManager {
 	private UserSingleGenerationWithApprovalPageObjects singlegenerationwithapproal;
 
 	private OrgSalesViewInstitutionsPageObjects orgsalesviewinstitutions;
+	
 
 	private UserGeneratedCertificatesPageObjects usergeneratedcertificates;
 
