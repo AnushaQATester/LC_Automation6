@@ -149,7 +149,7 @@ public class UserGenerateBulkWithoutApprovalPageObjects {
 	}
 
 	public void uploadthePDFfiles() throws InterruptedException {
-		driver.findElement(By.id("fileInput")).sendKeys("C:\\Users\\admin\\Desktop\\Bulk data-(26-Mar-24)\\important-linux-commands-you-should-know-obooko-61.pdf");
+		driver.findElement(By.id("fileInput")).sendKeys("C:\\Users\\admin\\Desktop\\Bulk data-(26-Mar-24)\\important-linux-commands-you-should-know-obooko-112.pdf");
 		Thread.sleep(2000);
 	}
 

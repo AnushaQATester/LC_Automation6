@@ -69,15 +69,15 @@ public class UserGenSingleByUploadingJPGfilePageObjects {
 	public void filltherequiredfields() throws InterruptedException {
 
 		testbase.waitForElement(Constants.driver.findElement(name), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(name).sendKeys("Kiran");
+		Constants.driver.findElement(name).sendKeys("Kranthi");
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(mobile), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(mobile).sendKeys("8879563478");
+		Constants.driver.findElement(mobile).sendKeys("8879563411");
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(email), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(email).sendKeys("kiran@gmail.com");
+		Constants.driver.findElement(email).sendKeys("kranthi@gmail.com");
 		Thread.sleep(3000);
 
 		testbase.waitForElement(Constants.driver.findElement(IssueMonth), TIMEOUT_WAIT, POOLING_WAIT);
@@ -86,7 +86,7 @@ public class UserGenSingleByUploadingJPGfilePageObjects {
 
 
 		testbase.waitForElement(Constants.driver.findElement(AcademicRef), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(AcademicRef).sendKeys("32724678df");
+		Constants.driver.findElement(AcademicRef).sendKeys("hdfg3647");
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(CertName), TIMEOUT_WAIT, POOLING_WAIT);
@@ -102,7 +102,7 @@ public class UserGenSingleByUploadingJPGfilePageObjects {
 	public void UploadJPGfileintouploadthedocumentfield() throws InterruptedException {
 
 		testbase.waitForElement(Constants.driver.findElement(upload), TIMEOUT_WAIT, POOLING_WAIT);
-		String img= "D:\\For Automation Purpose\\Screenshot (21).jpg";
+		String img= "D:\\For Automation Purpose\\Screenshot (12).jpg";
 
 		Constants.driver.findElement(upload);
 		WebElement Upload= testbase.waitForElement(Constants.driver.findElement(upload), TIMEOUT_WAIT, POOLING_WAIT);

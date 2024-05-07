@@ -9,7 +9,7 @@
 	
        
        
-     
+ <!--      
      <test name="ChromeBrowser">
 		<parameter name="browser" value="chrome" />
 		<classes>
@@ -129,12 +129,12 @@
             
 	        
     </classes>
-	    </test>
+	    </test>-->
 	     
 	     
 	     
 	
- <!--     <test name="ChromeBrowser">
+    <test name="ChromeBrowser">
 		<parameter name="browser" value="chrome" />
 		<classes>     
 
@@ -152,7 +152,7 @@
               <class name="com.cucumber.TestRunner.AdminGeneratedCertificatesNewMailEditRunner" />
 
  </classes>
-	    </test>-->
+	    </test>
 	     
 		    
 </suite>
