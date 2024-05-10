@@ -9,7 +9,7 @@
 	
        
        
-  
+  <!-- 
      <test name="ChromeBrowser">
 		<parameter name="browser" value="chrome" />
 		<classes>
@@ -131,11 +131,11 @@
 	        
     </classes>
 	    </test>
-	     
+	     -->
 	     
 	     
 	
-   <!--  <test name="ChromeBrowser">
+     <test name="ChromeBrowser">
 		<parameter name="browser" value="chrome" />
 		<classes>     
 
@@ -155,7 +155,7 @@
 
 
  </classes>
-	    </test> -->
+	    </test> 
 	    
 		    
 </suite>

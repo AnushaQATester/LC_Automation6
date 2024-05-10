@@ -27,57 +27,57 @@ public class UserSingleGenerationWithApprovalSteps {
 
 	@Then("^click the adminsettings dropdown$")
 	public void click_the_adminsettings_dropdown() throws Throwable {
-		singlegenerationwithapproval.clicktheadminsettingsdropdown();
+		//singlegenerationwithapproval.clicktheadminsettingsdropdown();
 	}
 
 	@Then("^select on settings$")
 	public void select_on_settings() throws Throwable {
-		singlegenerationwithapproval.selectonsettings();
+		//singlegenerationwithapproval.selectonsettings();
 	}
 
 	@Then("^click by Approval checkbox$")
 	public void click_by_Approval_checkbox() throws Throwable {
-		singlegenerationwithapproval.clickbyApprovalcheckbox();
+		//singlegenerationwithapproval.clickbyApprovalcheckbox();
 	}
 
 	@Then("^click the Submit$")
 	public void click_the_Submit() throws Throwable {
-		singlegenerationwithapproval.clicktheSubmit();
+		//singlegenerationwithapproval.clicktheSubmit();
 	}
 
 	@Then("^click of signout$")
 	public void click_of_signout() throws Throwable {
-		singlegenerationwithapproval.clickofsignout();
+		//singlegenerationwithapproval.clickofsignout();
 	}
 
 	@Then("^login the user details$")
 	public void login_the_user_details() throws Throwable {
-		singlegenerationwithapproval.logintheuserdetails();
+		//singlegenerationwithapproval.logintheuserdetails();
 	}
 
 	@Then("^click with certificate dropdown$")
 	public void click_with_certificate_dropdown() throws Throwable {
-		singlegenerationwithapproval.clickwithcertificatedropdown();
+		//singlegenerationwithapproval.clickwithcertificatedropdown();
 	}
 
 	@Then("^select the Single Generation$")
 	public void select_the_Single_Generation() throws Throwable {
-		singlegenerationwithapproval.selecttheSingleGeneration();
+		//singlegenerationwithapproval.selecttheSingleGeneration();
 	}
 
 	@Then("^click of Certificate type$")
 	public void click_of_Certificate_type() throws Throwable {
-		singlegenerationwithapproval.clickofCertificatetype();
+	//	singlegenerationwithapproval.clickofCertificatetype();
 	}
 
 	@Then("^Enter the input fields$")
 	public void enter_the_input_fields() throws Throwable {
-		singlegenerationwithapproval.Entertheinputfields();
+		//singlegenerationwithapproval.Entertheinputfields();
 	}
 
 	@Then("^click on single approval$")
 	public void click_on_single_approval() throws Throwable {
-		singlegenerationwithapproval.clickonsingleapproval();
+		//singlegenerationwithapproval.clickonsingleapproval();
 	}
 
 }

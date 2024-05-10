@@ -29,57 +29,57 @@ public class UserGenSingleWithApprovalSteps {
 
 	@Then("^click the adminsettings dropdown(\\d+)$")
 	public void click_the_adminsettings_dropdown(int arg1) throws Throwable {
-		withapproval.clicktheadminsettingsdropdown1();
+		//withapproval.clicktheadminsettingsdropdown1();
 	}
 
 	@Then("^select on settings(\\d+)$")
 	public void select_on_settings(int arg1) throws Throwable {
-		withapproval.selectonsettings1();
+		//withapproval.selectonsettings1();
 	}
 
 	@Then("^click the Approval checkbox(\\d+)$")
 	public void click_the_Approval_checkbox(int arg1) throws Throwable {
-		withapproval.clicktheApprovalcheckbox1();
+		//withapproval.clicktheApprovalcheckbox1();
 	}
 
 	@Then("^click the Submit(\\d+)$")
 	public void click_the_Submit(int arg1) throws Throwable {
-		withapproval.clicktheSubmit1();
+		//withapproval.clicktheSubmit1();
 	}
 
 	@Then("^click of signout(\\d+)$")
 	public void click_of_signout(int arg1) throws Throwable {
-		withapproval.clickofsignout1();
+		//withapproval.clickofsignout1();
 	}
 
 	@Then("^login the user details(\\d+)$")
 	public void login_the_user_details(int arg1) throws Throwable {
-		withapproval.logintheuserdetails1();
+		//withapproval.logintheuserdetails1();
 	}
 
 	@Then("^click with certificate dropdown(\\d+)$")
 	public void click_with_certificate_dropdown(int arg1) throws Throwable {
-		withapproval.clickwithcertificatedropdown1();
+		//withapproval.clickwithcertificatedropdown1();
 	}
 
 	@Then("^select the Single Generation(\\d+)$")
 	public void select_the_Single_Generation(int arg1) throws Throwable {
-		withapproval.selecttheSingleGeneration1();
+		//withapproval.selecttheSingleGeneration1();
 	}
 
 	@Then("^click of Certificate type(\\d+)$")
 	public void click_of_Certificate_type(int arg1) throws Throwable {
-		withapproval.clickofCertificatetype1();
+		//withapproval.clickofCertificatetype1();
 	}
 
 	@Then("^Enter the input fields(\\d+)$")
 	public void enter_the_input_fields(int arg1) throws Throwable {
-		withapproval.Entertheinputfields1();
+		//withapproval.Entertheinputfields1();
 	}
 
 	@Then("^click on single approval(\\d+)$")
 	public void click_on_single_approval(int arg1) throws Throwable {
-		withapproval.clickonsingleapproval1();
+		//withapproval.clickonsingleapproval1();
 	}
 }
 

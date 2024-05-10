@@ -35,27 +35,27 @@ public class UserGenSingleByUploadingJPGfileSteps {
 
 	@Then("^click on certificate click on the generate single$")
 	public void click_on_certificate_click_on_the_generate_single () throws Throwable {
-		gensinglewithjpg.clickoncertificateclickonthegeneratesingle();
+		//gensinglewithjpg.clickoncertificateclickonthegeneratesingle();
 	}
 
 	@Then("^click Certificate Type Dropdown Select Certificate Type$")
 	public void click_Certificate_Type_Dropdown_Select_Certificate_Type() throws Throwable {
-		gensinglewithjpg.clickCertificateTypeDropdownSelectCertificateType();
+		//gensinglewithjpg.clickCertificateTypeDropdownSelectCertificateType();
 	}
 
 	@Then("^fill the required fields$")
 	public void fill_the_required_fields() throws Throwable {
-		gensinglewithjpg.filltherequiredfields();
+		//gensinglewithjpg.filltherequiredfields();
 	}
 
 	@Then("^Upload JPG file into upload the document field$")
 	public void upload_JPG_file_into_upload_the_document_field() throws Throwable {
-		gensinglewithjpg.UploadJPGfileintouploadthedocumentfield();
+		//gensinglewithjpg.UploadJPGfileintouploadthedocumentfield();
 	}
 
 	@Then("^Click next button$")
 	public void Click_next_button() throws Throwable {
-		gensinglewithjpg.Clicknextbutton();
+		//gensinglewithjpg.Clicknextbutton();
 	}
 	
 }

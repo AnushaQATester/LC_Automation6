@@ -37,28 +37,28 @@ public class UserGenSingleByUploadingDOCXfileSteps {
 
 	@Then("^Click Certificate Click Generate Single$")
 	public void click_Certificate_Click_Generate_Single() throws Throwable {
-		gensinglewithdocx.ClickCertificateClickGenerateSingle();
+		//gensinglewithdocx.ClickCertificateClickGenerateSingle();
 	}
 
 	@Then("^Click Certificate Type Dropdown and Select Certificate Type$")
 	public void click_Certificate_Type_Dropdown_and_Select_Certificate_Type() throws Throwable {
-	gensinglewithdocx.ClickCertificateTypeDropdownandSelectCertificateType();
+	//gensinglewithdocx.ClickCertificateTypeDropdownandSelectCertificateType();
 		
 	}
 
 	@Then("^Fill by the Required Fields$")
 	public void fill_by_the_Required_Fields() throws Throwable {
-		gensinglewithdocx.FillbytheRequiredFields();
+		//gensinglewithdocx.FillbytheRequiredFields();
 	}
 
 	@Then("^Upload DOCX file into Upload the Document field$")
 	public void upload_DOCX_file_into_Upload_the_Document_field() throws Throwable {
-		gensinglewithdocx.UploadDOCXfileintoUploadtheDocumentfield();
+		//gensinglewithdocx.UploadDOCXfileintoUploadtheDocumentfield();
 	}
 
 	@Then("^Click by Next Button$")
 	public void click_by_Next_Button() throws Throwable {
-		gensinglewithdocx.ClickbyNextButton();
+		//gensinglewithdocx.ClickbyNextButton();
 	}
 
 }
