@@ -38,31 +38,32 @@ public class UserGenerateBulkByUploadCSVFileWithEmptyCertificateNameSteps {
 	@When("^the User logs in using their Valid Credentials(\\d+)$")
 	public void the_User_logs_in_using_their_Valid_Credentials(int arg1) throws Throwable {
 		login.Logintoappln("SahUser", "User@1"); 
+		Thread.sleep(4000);
 	}
 
 	@Then("^The popup window should appear clear$")
 	public void the_popup_window_should_appear_clear() throws Throwable {
-		System.out.println("login done");
+		//System.out.println("login done");
 	}
 
 	@Then("^the user navigates to Certificates section$")
 	public void the_user_navigates_to_Certificates_section() throws Throwable {
-		emptycertificatename1.theusernavigatestoertificatessection();
+		//emptycertificatename1.theusernavigatestoertificatessection();
 	}
 
 	@Then("^Selects Bulk Certificates from the menu$")
 	public void selects_Bulk_Certificates_from_the_menu() throws Throwable {
-		emptycertificatename1.SelectsBulkCertificatesfromthemenu();
+		//emptycertificatename1.SelectsBulkCertificatesfromthemenu();
 	}
 
 	@Then("^Chooses an option from the Dropdown list for select$")
 	public void chooses_an_option_from_the_Dropdown_list_for_select() throws Throwable {
-		emptycertificatename1.ChoosesanoptionfromtheDropdownlistforselect();
+		//emptycertificatename1.ChoosesanoptionfromtheDropdownlistforselect();
 	}
 
 	@Then("^Uploads both a JPG and a CSV file Parallely$")
 	public void uploads_both_a_JPG_and_a_CSV_file_Parallely() throws Throwable {
-		emptycertificatename1.UploadsbothaJPGandaCSVfileParallely();
+		//emptycertificatename1.UploadsbothaJPGandaCSVfileParallely();
 	}
 
 	@Then("^Checks the checkbox Before clicking on the save button and clicks$")

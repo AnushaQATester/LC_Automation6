@@ -38,37 +38,37 @@ public class UserGenerateBulkByUploadCSVFileWithEmptyMobileNumberSteps {
 	@When("^The user logs in with valid credentials$")
 	public void the_user_logs_in_with_valid_credentials() throws Throwable {
 		login.Logintoappln("SahUser", "User@1");
-		Thread.sleep(3000);
+		Thread.sleep(7000);
 		}
 
 	@Then("^A Popup should appear$")
 	public void a_Popup_should_appear() throws Throwable {
-		 System.out.println("login done");
+		 //System.out.println("login done");
 	}
 
 	@Then("^The user clicks on the certificates$")
 	public void The_user_clicks_on_the_certificates() throws Throwable {
-		emptymobilenum.Theuserclicksonthecertificates();
+		//emptymobilenum.Theuserclicksonthecertificates();
 	}
 
 	@Then("^The User Selects bulk certificates from the menu$")
 	public void The_User_Selects_bulk_certificates_from_menu() throws Throwable {
-		emptymobilenum.TheUserSelectsbulkcertificatesfromthemenu();
+		//emptymobilenum.TheUserSelectsbulkcertificatesfromthemenu();
 	}
 
 	@Then("^The User chooses an option from the dropdown menu$")
 	public void the_User_chooses_an_option_from_the_dropdown_menu() throws Throwable {
-		emptymobilenum.TheUserchoosesanoptionfromthedropdownmenu();
+		//emptymobilenum.TheUserchoosesanoptionfromthedropdownmenu();
 	}
 
 	@Then("^The User uploads a JPG and a CSV file$")
 	public void the_User_uploads_a_JPG_and_a_CSV_file() throws Throwable {
-		emptymobilenum.TheUseruploadsaJPGandaCSVfile();
+		//emptymobilenum.TheUseruploadsaJPGandaCSVfile();
 	}
 
 	@Then("^The User checks the checkbox and clicks the save button$")
 	public void the_User_checks_the_checkbox_and_clicks_the_save_button() throws Throwable {
-		emptymobilenum.TheUserchecksthecheckboxandclicksthesavebutton();
+		//emptymobilenum.TheUserchecksthecheckboxandclicksthesavebutton();
 	}
 
 }

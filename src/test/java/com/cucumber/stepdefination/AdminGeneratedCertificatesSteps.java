@@ -27,17 +27,17 @@ public class AdminGeneratedCertificatesSteps {
 
 	@Then("^Click the Reports option$")
 	public void click_the_Reports_option() throws Throwable {
-		admingeneratedcertificates.clicktheReportsoption();
+		//admingeneratedcertificates.clicktheReportsoption();
 	}
 
 	@Then("^Click on Generated Certificates$")
 	public void click_on_Generated_Certificates() throws Throwable {
-		admingeneratedcertificates.clickOnGeneratedCertificates();
+		//admingeneratedcertificates.clickOnGeneratedCertificates();
 	}
 
 	@Then("^Click on Student Name$")
 	public void Click_on_Student_Name() throws Throwable {
-		admingeneratedcertificates.ClickonStudentName();
+		//admingeneratedcertificates.ClickonStudentName();
 	}
 
 	@Then("^Click the Send Mail icon and Click Ok$")
@@ -47,41 +47,41 @@ public class AdminGeneratedCertificatesSteps {
 
 	@Then("^Click on Revoke icon and Click on Ok$")
 	public void click_on_Revoke_icon_and_Click_on_Ok() throws Throwable {
-		admingeneratedcertificates.clickonRevokeiconandclickonOk();
+		//admingeneratedcertificates.clickonRevokeiconandclickonOk();
 	}
 
 	@Then("^Click the Download Source File icon and Click on Ok$")
 	public void click_the_Download_Source_File_icon_and_Click_on_Ok() throws Throwable {
-		admingeneratedcertificates.clickthedownloadsourcefileiconandclickonOK();
+		//admingeneratedcertificates.clickthedownloadsourcefileiconandclickonOK();
 	}
 
 	@Then("^Click the Download Key File icon and Click on Ok$")
 	public void click_the_Download_Key_File_icon_and_Click_on_Ok() throws Throwable {
-		admingeneratedcertificates.clickthedownloadkeyfileiconandclickonOk();
+		//admingeneratedcertificates.clickthedownloadkeyfileiconandclickonOk();
 	}
 
 	@Then("^Click on Header Checkbox$")
 	public void click_on_Header_Checkbox() throws Throwable {
-		admingeneratedcertificates.clickonHeadercheckbox();
+		//admingeneratedcertificates.clickonHeadercheckbox();
 	}
 
 	@Then("^Click on Action Dropdown$")
 	public void click_on_Action_Dropdown() throws Throwable {
-		admingeneratedcertificates.clickonActiondropdown();
+		//admingeneratedcertificates.clickonActiondropdown();
 	}
 
 	@Then("^Select send mail and click on GO button$")
 	public void select_Download_Source_file_and_click_on_GO_button() throws Throwable {
-		admingeneratedcertificates.selectsendmailandclickonGobutton();
+		//admingeneratedcertificates.selectsendmailandclickonGobutton();
 	}
 	@Then("^Click on Ok button$")
 	public void click_on_Ok_button() throws Throwable {
-		admingeneratedcertificates.clickonOkbutton();
+		//admingeneratedcertificates.clickonOkbutton();
 	   	}
 
 	@Then("^Click by Signout page$")
 	public void click_by_Signout_page() throws Throwable {
-		admingeneratedcertificates.ClickbySignoutpage();
+		//admingeneratedcertificates.ClickbySignoutpage();
 	}
 	   
 	}

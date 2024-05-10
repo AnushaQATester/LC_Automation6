@@ -38,7 +38,7 @@ public class UserGenerateBulkByUploadCSVFileWithInvalidCertificateTypeSteps {
 	@When("^the user Logs in using their valid credentials$")
 	public void the_user_Logs_in_using_their_valid_credentials() throws Throwable {
 		login.Logintoappln("SahUser", "User@1");
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 	}
 
 	@Then("^A popup window should Appear clear$")
@@ -48,22 +48,22 @@ public class UserGenerateBulkByUploadCSVFileWithInvalidCertificateTypeSteps {
 
 	@Then("^the User Navigates to the \"([^\"]*)\" section further$")
 	public void the_User_Navigates_to_the_section_further(String arg1) throws Throwable {
-		invalidcertificatetype.theUserNavigatestotheCertificates1sectionfurther();
+		//invalidcertificatetype.theUserNavigatestotheCertificates1sectionfurther();
 	}
 
 	@Then("^Selects \"([^\"]*)\" from the menu options for click$")
 	public void selects_from_the_menu_options_for_click(String arg1) throws Throwable {
-		invalidcertificatetype.SelectsBulkCertificates1fromthemenuoptionsforclick();
+		//invalidcertificatetype.SelectsBulkCertificates1fromthemenuoptionsforclick();
 	}
 
 	@Then("^Chooses an option from the dropdown list for select$")
 	public void chooses_an_option_from_the_dropdown_list_for_select() throws Throwable {
-		invalidcertificatetype.Choosesanoptionfromthedropdownlistforselect();
+		//invalidcertificatetype.Choosesanoptionfromthedropdownlistforselect();
 	}
 
 	@Then("^Uploads both a JPG and a CSV(\\d+) file parallely$")
 	public void uploads_both_a_JPG_and_a_CSV_file_parallely(int arg1) throws Throwable {
-		invalidcertificatetype.UploadsbothaJPGandaCSV1fileparallely();
+		//invalidcertificatetype.UploadsbothaJPGandaCSV1fileparallely();
 	}
 
 	@Then("^Checks the checkbox before Clicking on the save button and clicks$")

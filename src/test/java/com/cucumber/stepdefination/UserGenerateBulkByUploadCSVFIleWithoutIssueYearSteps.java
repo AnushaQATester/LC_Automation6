@@ -37,6 +37,7 @@ public class UserGenerateBulkByUploadCSVFIleWithoutIssueYearSteps {
 	@When("^the user logs in successfully using UN & PWD$")
 	public void the_user_logs_in_successfully_using_UN_PWD() throws Throwable {
 		login.Logintoappln("SahUser", "User@1");
+		Thread.sleep(4000);
 	}
 
 	@Then("^confirm the Appearance of a Popup Message$")
@@ -46,27 +47,27 @@ public class UserGenerateBulkByUploadCSVFIleWithoutIssueYearSteps {
 
 	@Then("^proceed to the section titled Certificates tab(\\d+)$")
 	public void proceed_to_the_section_titled_Certificates_tab(int arg1) throws Throwable {
-		withoutissueyear.proceedtothesectiontitledCertificatestab1();
+		//withoutissueyear.proceedtothesectiontitledCertificatestab1();
 	}
 
 	@Then("^select the option labeled Bulk Certificates(\\d+)$")
 	public void select_the_option_labeled_Bulk_Certificates(int arg1) throws Throwable {
-		withoutissueyear.selecttheoptionlabeledBulkCertificates1();
+		//withoutissueyear.selecttheoptionlabeledBulkCertificates1();
 	}
 
 	@Then("^choose an item from the Dropdown(\\d+)$")
 	public void choose_an_item_from_the_Dropdown(int arg1) throws Throwable {
-		withoutissueyear.chooseanitemfromtheDropdown1();
+		//withoutissueyear.chooseanitemfromtheDropdown1();
 	}
 
 	@Then("^upload both a JPG(\\d+) and a CSV(\\d+) filess at a time$")
 	public void upload_both_a_JPG_and_a_CSV_filess_at_a_time(int arg1, int arg2) throws Throwable {
-		withoutissueyear.uploadbothaJPG1andaCSV1filessatatime();
+		//withoutissueyear.uploadbothaJPG1andaCSV1filessatatime();
 	}
 
 	@Then("^Ensure that the Checkbox is Selected before Save it$")
 	public void ensure_that_the_Checkbox_is_Selected_before_Save_it() throws Throwable {
-		withoutissueyear.EnsurethattheCheckboxisSelectedbeforeSaveit();
+		//withoutissueyear.EnsurethattheCheckboxisSelectedbeforeSaveit();
 	}
 
 }

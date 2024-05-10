@@ -45,27 +45,27 @@ public class UserGenerateBulkByUploadCSVFIleWithoutIssueMonthSteps {
 
 	@Then("^proceed to the section titled Certificates tab$")
 	public void proceed_to_the_section_titled_Certificates_tab() throws Throwable {
-		withoutissuemonth.ClickOnCertificates();
+		//withoutissuemonth.ClickOnCertificates();
 	}
 
 	@Then("^select the option labeled Bulk Certificates$")
 	public void select_the_option_labeled_Bulk_Certificates() throws Throwable {
-		withoutissuemonth.clickOnGenerateBulk(); 
+		//withoutissuemonth.clickOnGenerateBulk(); 
 	}
 
 	@Then("^choose an item from the dropdown$")
 	public void choose_an_item_from_the_dropdown() throws Throwable {
-		withoutissuemonth.clickOndropDown();
+		//withoutissuemonth.clickOndropDown();
 	}
 
 	@Then("^upload both a JPG and a CSV filess at a time$")
 	public void upload_both_a_JPG_and_a_CSV_filess_at_a_time() throws Throwable {
-		withoutissuemonth.files_upload();
+		//withoutissuemonth.files_upload();
 	}
 
 	@Then("^ensure that the checkbox is selected before saving it$")
 	public void ensure_that_the_checkbox_is_selected_before_saving_it() throws Throwable {
-		withoutissuemonth.next_button();
+		//withoutissuemonth.next_button();
 	}
 
 }

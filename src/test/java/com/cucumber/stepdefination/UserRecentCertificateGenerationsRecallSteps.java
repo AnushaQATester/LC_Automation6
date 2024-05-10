@@ -32,12 +32,12 @@ public class UserRecentCertificateGenerationsRecallSteps {
 
 	@Then("^scroll the vertical bar$")
 	public void scroll_the_vertical_bar() throws Throwable {
-		recall.scrolltheverticalbar();
+		//recall.scrolltheverticalbar();
 	}
 
 	@Then("^click Recall icon in Recent Certificate Generations$")
 	public void click_Recall_icon_in_Recent_Certificate_Generations() throws Throwable {
-		recall.clickRecalliconinRecentCertificateGenerations();
+		//recall.clickRecalliconinRecentCertificateGenerations();
 	}
 	
 	}

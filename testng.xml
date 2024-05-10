@@ -9,7 +9,7 @@
 	
        
        
-     
+  
      <test name="ChromeBrowser">
 		<parameter name="browser" value="chrome" />
 		<classes>
@@ -25,6 +25,7 @@
             <class name="com.cucumber.TestRunner.OrgSalesViewInstitutionsRunner" />	
             <class name="com.cucumber.TestRunner.OrgSalesViewUserListRunner" /> 
             <class name="com.cucumber.TestRunner.OrgSalesReceiptsRunner" /> 
+      
          
             <class name="com.cucumber.TestRunner.AdminCertificateApprovalsRunner" />
 	        <class name="com.cucumber.TestRunner.AdminAddCertificateTypeRunner" /> 
@@ -133,12 +134,12 @@
 	     
 	     
 	     
-	<!-- 
-    <test name="ChromeBrowser">
+	
+   <!--  <test name="ChromeBrowser">
 		<parameter name="browser" value="chrome" />
 		<classes>     
 
-	          <class name="com.cucumber.TestRunner.UserGenerateSingleWithoutApprovalRunner" />
+	         <class name="com.cucumber.TestRunner.UserGenerateSingleWithoutApprovalRunner" />
 	          <class name="com.cucumber.TestRunner.UserGenerateBulkWithoutApprovalRunner" />
               <class name="com.cucumber.TestRunner.UserGenerateBulkWithApprovalRunner" />
               <class name="com.cucumber.TestRunner.UserVerifyCertificatesRunner" />
@@ -150,11 +151,13 @@
               <class name="com.cucumber.TestRunner.UserGenSingleByUploadingJPEGfileRunner" />
               <class name="com.cucumber.TestRunner.UserNewMailEditRunner" />
               <class name="com.cucumber.TestRunner.AdminGeneratedCertificatesNewMailEditRunner" />
+      	       
+
 
  </classes>
-	    </test>
-	     
-		    -->
+	    </test> -->
+	    
+		    
 </suite>
 
 
