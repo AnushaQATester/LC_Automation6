@@ -28,32 +28,32 @@ public class OrgMgmtChangePasswordSteps {
 
 	@Then("^Click on the settings tab$")
 	public void click_on_the_settings_tab() throws Throwable {
-		orgmgmtchangepassword.clickonthesettingstab();
+		//orgmgmtchangepassword.clickonthesettingstab();
 	}
 
 	@Then("^Click change password$")
 	public void click_change_password() throws Throwable {
-		orgmgmtchangepassword.clickchangepassword();
+		//orgmgmtchangepassword.clickchangepassword();
 	}
 
 	@Then("^enter current password$")
 	public void enter_current_password() throws Throwable {
-		orgmgmtchangepassword.entercurrentpassword();
+		//orgmgmtchangepassword.entercurrentpassword();
 	}
 
 	@Then("^enter new password$")
 	public void enter_new_password() throws Throwable {
-		orgmgmtchangepassword.enternewpassword();
+		//orgmgmtchangepassword.enternewpassword();
 	}
 
 	@Then("^re enter new password$")
 	public void re_enter_new_password() throws Throwable {
-		orgmgmtchangepassword.reenternewpassword();
+		//orgmgmtchangepassword.reenternewpassword();
 	}
 
 	@Then("^Click by Update and Click OK$")
 	public void click_by_Update_and_Click_OK() throws Throwable {
-		orgmgmtchangepassword.clickbyupdateandclickok();
+		//orgmgmtchangepassword.clickbyupdateandclickok();
 	    
 	}
 

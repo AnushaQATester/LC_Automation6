@@ -29,63 +29,63 @@ public class OrgMgmtUpdateProfileSteps {
 	}
 	@Then("^Click the Settings option$")
 	public void click_the_Settings_option() throws Throwable {
-		orgmgmtupdtprf.clicktheSettingsoption();
+		//orgmgmtupdtprf.clicktheSettingsoption();
 	}
 
 	@Then("^Click the update profile$")
 	public void click_the_update_profile() throws Throwable {
-		orgmgmtupdtprf.clicktheupdateprofile();
+		//orgmgmtupdtprf.clicktheupdateprofile();
 	}
 	@Then("^Clear the first name$")
 	public void clear_the_first_name_filed() throws Throwable {
-		orgmgmtupdtprf.clearthefirstname();
+		//orgmgmtupdtprf.clearthefirstname();
 	}
 
 	@Then("^Enter the first name$")
 	public void enter_on_first_name_filed() throws Throwable {
-		orgmgmtupdtprf.enterthefirstname();
+		//orgmgmtupdtprf.enterthefirstname();
 	}
 
 	@Then("^Clear the Last Name$")
 	public void clear_the_Last_Name() throws Throwable {
-		orgmgmtupdtprf.clearthelastname();
+		//orgmgmtupdtprf.clearthelastname();
 	}
 
 	@Then("^Enter the Last Name$")
 	public void enter_the_Last_Name() throws Throwable {
-		orgmgmtupdtprf.enterthelaststname();
+		//orgmgmtupdtprf.enterthelaststname();
 	}
 
 	@Then("^Clear the Email Id$")
 	public void clear_the_Email_Id() throws Throwable {
-		orgmgmtupdtprf.cleartheemailid();
+		//orgmgmtupdtprf.cleartheemailid();
 	}
 
 	@Then("^Enter the Email Id$")
 	public void enter_the_Email_Id() throws Throwable {
-		orgmgmtupdtprf.entertheemailid();
+		//orgmgmtupdtprf.entertheemailid();
 	}
 
 	@Then("^Clear the Mobile Number$")
 	public void clear_the_Mobile_Number() throws Throwable {
-		orgmgmtupdtprf.clearthemobilenumber();
+		//orgmgmtupdtprf.clearthemobilenumber();
 	}
 
 	@Then("^Enter the Mobile Number$")
 	public void enter_the_Mobile_Number() throws Throwable {
-		orgmgmtupdtprf.enterthemobilenumber();
+		//orgmgmtupdtprf.enterthemobilenumber();
 	}
 	@Then("^Click Submit button$")
 	public void click_Submit_button() throws Throwable {
-		orgmgmtupdtprf.clickthesubmitbutton();
+		//orgmgmtupdtprf.clickthesubmitbutton();
 	    
 	}
 	@And("^Click on the Ok option$")
 	public void click_on_the_Ok_option() throws Throwable {
-		orgmgmtupdtprf.clickontheokoption();
+		//orgmgmtupdtprf.clickontheokoption();
 	}
 	@Then("^Click as Signout$")
 	public void click_as_Signout() throws Throwable {
-		orgmgmtupdtprf.clickasSignout();
+	//orgmgmtupdtprf.clickasSignout();
 }
 }

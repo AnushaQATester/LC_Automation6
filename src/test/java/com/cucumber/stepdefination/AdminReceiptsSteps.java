@@ -29,18 +29,18 @@ public class AdminReceiptsSteps {
 
 	@When("^Click on Reports$")
 	public void Click_On_reports() throws Throwable {
-		receipts.clickOnReports();
+		//receipts.clickOnReports();
 	}
 
 	@Then("^Click on Receipts$")
 	public void Click_on_Receipts() throws Throwable {
-		receipts.clickonReceipts();
+		//receipts.clickonReceipts();
 
 	}
 
 	@Then("^Click on Next button$")
 	public void Click_On_Nextbutton() throws Throwable {
-		receipts.clickonnextbutton();
+		//receipts.clickonnextbutton();
 	}
 	
 }

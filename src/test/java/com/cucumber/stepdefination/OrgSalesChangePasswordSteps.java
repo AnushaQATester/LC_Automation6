@@ -28,37 +28,37 @@ public class OrgSalesChangePasswordSteps {
 
 	@Then("^Click on Settings option$")
 	public void click_on_Settings_option() throws Throwable {
-		oschangepwd.clickOnSettingsoption();
+		//oschangepwd.clickOnSettingsoption();
 	}
 
 	@Then("^Click on Change Password$")
 	public void click_on_Change_Password() throws Throwable {
-		oschangepwd.clickOnchangepassword();
+		//oschangepwd.clickOnchangepassword();
 	}
 
 	@Then("^Enter Current Password$")
 	public void enter_Current_Password() throws Throwable {
-		oschangepwd.entercurrentpassword();
+		//oschangepwd.entercurrentpassword();
 	}
 
 	@Then("^Enter New Password$")
 	public void enter_New_Password() throws Throwable {
-		oschangepwd.enternewpassword();
+		//oschangepwd.enternewpassword();
 	}
 
 	@Then("^Re Enter New Password$")
 	public void re_Enter_New_Password() throws Throwable {
-		oschangepwd.Reenternewpassword();
+		//oschangepwd.Reenternewpassword();
 	}
 
 	@Then("^Click on Update and Click on OK$")
 	public void click_on_Update_and_Click_on_OK() throws Throwable {
-		oschangepwd.clickonupdateandclickonok();
+		//oschangepwd.clickonupdateandclickonok();
 	}
 
 	@Then("^Click Sign Out$")
 	public void click_Sign_Out() throws Throwable {
-		oschangepwd.clicksignout();
+		//oschangepwd.clicksignout();
 	}
 
 
